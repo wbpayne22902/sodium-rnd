@@ -6,6 +6,7 @@
 int main(int argc, char *argv[])
 {
     // Check if the user provided a valid argument
+    printf("%s: Welcome to Wilhelm's libsodium random number demo!\n");
     if (argc != 2)
     {
         printf("Usage: %s upper_bound\n", argv[0]);
