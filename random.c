@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
     if (argc != 2)
     {
         printf("Usage: %s upper_bound\n", argv[0]);
+        printf("upper_bound is the highest random number you'll want.\n");
         return 1;
     }
 
