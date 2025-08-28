@@ -29,6 +29,6 @@ int main(int argc, char *argv[])
 
     // Print the random number
     printf("The random number is %u\n", random_number);
-
+    printf("We are now done!\n");
     return 0;
 }
