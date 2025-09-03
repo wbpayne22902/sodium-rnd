@@ -2,11 +2,11 @@
 #include <sodium.h>
 #include <stdio.h>
 #include <stdlib.h>
-
+const float ver = 1.25;
 int main(int argc, char *argv[])
 {
     // Check if the user provided a valid argument
-    printf("%s: Welcome to Wilhelm's libsodium random number demo!\n", argv[0]);
+    printf("%s: Welcome to Wilhelm's libsodium random number demo version %g!\n", argv[0], ver);
     if (argc != 2)
     {
         printf("Usage: %s upper_bound\n", argv[0]);
